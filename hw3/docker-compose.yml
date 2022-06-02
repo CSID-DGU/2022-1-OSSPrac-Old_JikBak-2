@@ -2,7 +2,7 @@ version: '3.0'
 
 services:
         Docker_Web:
-                image: midnight774/test_web:latest
+                image: midnight774/docker_web:latest
                 build:
                         context: .
                 ports:
